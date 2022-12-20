@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="arts, aki, aki_seijuro, gorch, art">
+    <link rel="stylesheet" href="styles/style-main.css">
+    <link rel="stylesheet" href="styles/style-footer.css">
+    <link rel="stylesheet" href="styles/style-header.css">
+    <link rel="icon" href="images/other/favicon.ico" type="image/x-icon">
+    <script src="kaspagescript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <title>KAS</title>
+</head>
+
+
+<body>
+    <header id="header">
+        <div id="upper-header">
+        <div id="header-logo">
+            <img alt="KAS" title="KAS" src="images/other/header-logo.jpg">
+        </div>
+        <div id="nav-search-container">
+            <nav id="header-nav">
+                <button id="price" class="header-nav-el" onclick="priceSectionOnHeader()">Check price</button>
+                <button id="arts" class="header-nav-el" onclick="scrollToArts()" >Arts</button>
+            </nav>
+        <div id="search-nav"><input type="text" placeholder="Search"></div>
+        </div>
+        </div>
+        <div id="down-header">
+            <img src="images/other/down-header.jpg">
+        </div>
+    </header>
+
+    <main id="main-content">
+        <div class="info">
+        <section id="info-about-artist">
+            <article class="article-info">
+                <p class="title" id="anim">Aki_Seijuro</p>
+                <div class="info-text">Hello, my name is Aki, 
+                    I am an illustrator 
+                    and also a videographer/photographer. 
+                    <br>
+                    I like to play basketball, 
+                    play video games and cook 
+                    delicious homemade cakes.
+                    <br>
+                    I love animals, especially cats. 
+                    I don't have a cat at the moment
+                    <br>
+                    but I would like to get a big cat ^-^
+                    <br>
+                    <p>— even a black swan can resurrect.</p>
+                </div>
+            </article>
+            <div id="info-image"><img alt="Art" title="Art" src="images/other/info-img.jpeg" ></div>
+        </section>
+
+        <hr class="line">
+
+        <section id="examples-of-arts">
+            <div class="examples-container" id="example01">
+                <img src="images/examples01/1.jpg">
+                <div class="ex" id="ex1">
+                <img class="example" alt="example" title="example" src="images/examples01/1.jpg">
+                <img class="example" alt="example" title="example" src="images/examples01/2.jpg">
+                <img class="example" alt="example" title="example" src="images/examples01/3.png">
+                <img class="example" alt="example" title="example" src="images/examples01/4.jpg">
+                <img class="example" alt="example" title="example" src="images/examples01/5.jpg">
+                <img class="example" alt="example" title="example" src="images/examples01/6.jpg">
+                <img class="example" alt="example" title="example" src="images/examples01/7.jpg">
+                <img class="example" alt="example" title="example" src="images/examples01/8.jpg">
+                <img class="example" alt="example" title="example" src="images/examples01/9.jpg">
+                </div>
+            </div>
+            <div class="examples-container" id="example02">
+                <img src="images/examples02/8.jpg">
+                <div class="ex" id="ex2">
+                    <img class="example" alt="example" title="example" src="images/examples02/1.png">
+                    <img class="example" alt="example" title="example" src="images/examples02/2.jpg">
+                    <img class="example" alt="example" title="example" src="images/examples02/3.jpg">
+                    <img class="example" alt="example" title="example" src="images/examples02/4.png">
+                    <img class="example" alt="example" title="example" src="images/examples02/5.png">
+                    <img class="example" alt="example" title="example" src="images/examples02/6.jpg">
+                    <img class="example" alt="example" title="example" src="images/examples02/7.png">
+                    <img class="example" alt="example" title="example" src="images/examples02/8.jpg">
+                    <img class="example" alt="example" title="example" src="images/examples02/9.png">
+                    </div>
+            </div>
+        </section>
+
+        <hr class="line">
+        <p id="title-pricelist">You can get own art here</p>
+        <div id="button-container">
+            <button id="priceListButton" onclick="priceSectionOn()">Prices</button>
+            <div id="flower"><img src="images/other/arrow.png"></div>
+        </div>
+        
+        
+
+        <section id="pricelist" name="pricelist">
+            <div id="links">
+                <a class="link-media" href="https://www.instagram.com/gorch_kas/" target="_blank"><img src="images/icons/instagram-icon.png"></a>
+                <a class="link-media" href="https://vk.com/gorch_art" target="_blank"><img src="images/icons/vk-icon.png"></a>
+                <a class="link-media" href="https://t.me/+8HhK53XJnaJmODFi" target="_blank"><img src="images/icons/telegram-icon.png"></a>
+            </div>
+            <div id="pricelist-imgs">
+                <a href="images/other/pricelist1.png" target="_blank"><img id="price" alt="Pricelist" title="Pricelist" src="images/other/pricelist1.png"></a>
+            </div>
+            <hr style="border:transparent solid 30px;">
+        </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <address id="contacts">
+            <div id="contacts-artist"></div>
+            <ul id="artist-social-media">
+                <li style="padding-left:19px;">Aki_Seijuro</li>
+                <li><a href="https://www.instagram.com/gorch_kas/"><img src="images/icons/instagram-icon-bw.png">Instagram</a></li>
+                <li><a href="https://vk.com/gorch_art"><img src="images/icons/vk-icon-bw.png">VK</a></li>
+                <li><a href="https://t.me/+8HhK53XJnaJmODFi"><img src="images/icons/telegram-icon-bw.png">Telegram</a></li>
+            </ul>
+            <div>
+            <p id="contacts-creator">Created by <a class="link-address" href="https://github.com/SirVlad27">Karelin Vlad <img src="images/icons/github-icon.png"></a></p>
+            </div>
+        </address>
+    </footer>
+</body>
+</html>

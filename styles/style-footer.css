@@ -1,0 +1,58 @@
+
+#contacts{
+    color:gainsboro;
+    height: auto;
+}
+
+#contacts-creator{
+    margin:0;
+    margin-left:5px;
+    color:rgb(153, 153, 153);
+    font-family: "Alegreya SC", serif;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+}
+.link-address{
+    margin:0;
+    margin-left:5px;
+    color:rgb(153, 153, 153);
+    font-family: "Alegreya SC", serif;
+    font-style: normal;
+    text-decoration: none;
+    font-size: inherit;
+}
+.link-address img{
+    height:14px;
+}
+.link-address:hover{
+    text-decoration: underline;
+    color:rgb(116, 116, 116);
+}
+
+#artist-social-media{
+    font-family: "Alegreya SC", serif;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 5px;
+    list-style-type: none;
+    color:rgb(153, 153, 153);
+}
+#artist-social-media a{
+    font-family: "Alegreya SC", serif;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    color:rgb(153, 153, 153);
+}
+#artist-social-media:hover a{
+    text-decoration: underline;
+    color:rgb(116, 116, 116);
+}
+#artist-social-media img{
+    margin-right: 5px;
+    position: relative;
+    top:2px;
+    height:14px;
+}

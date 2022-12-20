@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC');
+#main-content{
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+    width: 90%;
+    border: solid 40px #26252a;
+    background: #26252a;
+}
+.info{
+    box-shadow: 0px 0px 10px 1vw rgb(0 0 0 / 30%);
+    max-width: 1000px;
+    min-width:800px;
+    margin: auto;
+    background-color: rgb(115 115 115);
+    border-radius: 20px;
+}
+
+
+#info-about-artist{
+display: flex;
+}
+.line{
+    width:85%;
+    border:none;
+    border-top:#000000 solid 2px;
+    box-shadow: rgb(0, 0, 0, 0.3) 1px 1px;
+}
+#info-about-artist article{
+    width:50%;
+    padding:10px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    font-size: 8.1vw;
+    white-space: normal;
+    color: rgb(0, 0, 0);
+}
+#info-about-artist .info-text{
+    width:80%;
+    height:400px;
+    margin: auto;
+    text-align: center;
+    font-family: Arvo, serif;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+#info-image{
+    top:0;
+    width:50%;
+    
+}
+#info-image img{
+
+    border-radius: 10px;
+    margin:5%;
+    width:90%;
+}
+.title{
+    font-family: "Bree Serif", serif;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    margin-top:10px;
+    font-weight: bold;
+}
+
+#pricelist-img{
+    width:90%;
+    height:300px;
+    border:solid black 1px;
+}
+
+#examples-of-arts{
+    padding:40px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.examples-container{
+    border-radius: 5px;
+    background-size: contain;
+    display: block;
+    width:200px;
+    height:200px;
+    position: relative;
+    border:solid rgb(0, 0, 0) 1px;
+}
+#example01{
+    margin-right:40px;}
+#example02{
+    margin-left:40px;}
+.example{
+    box-shadow: rgb(0, 0, 0, 0.45) -2px 2px 2px 2px;
+    width:200px;
+    height:200px;
+    border:solid black 2px;
+    border-radius: 5px;
+
+}
+.ex{
+    position: relative;
+    bottom: 630px;
+    background-color: rgb(219, 219, 219);
+    display: none;
+    border:rgb(219, 219, 219) 20px solid;
+    border-top:40px rgb(219, 219, 219) solid;
+    border-bottom:40px rgb(219, 219, 219) solid;
+    width:630px;
+    height:630px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    z-index: 1;
+}
+.info-text p{
+    font-style: italic;
+}
+#ex1{
+    top:-800px;
+    left:-150px;
+}
+#ex2{
+    top:-800px;
+    left:-330px;
+}
+.examples-container:hover #ex1{
+    position: relative;
+    display: flex;
+    animation: examples-appear1 linear 0.25s forwards;
+}
+.examples-container:hover #ex2{
+    position: relative;
+    display: flex;
+    animation: examples-appear2 linear 0.25s forwards;
+}
+#title-pricelist{
+    text-align: center;
+    margin:auto;
+    margin-top:30px;
+    font-family: "Bree Serif", serif;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+}
+#pricelist-imgs{
+    display: flex;
+    justify-content: center;
+    width:90%;
+    margin: auto;
+    
+}
+#pricelist-imgs img{
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0,0.3) 0px 0px 10px 1vw;
+}
+
+#pricelist{
+    position: relative;
+    top:-30px;
+    display: none;
+    margin-bottom:30px;
+}
+#button-container{
+    width:200px;
+    margin-left:auto;
+    margin-right: auto;
+}
+#priceListButton{
+    display: inline;
+    position: relative;
+    width:200px;
+    height:50px;
+    color: #f7f5fa;
+    font-family: Nagomi;
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+    background-color: #000000;
+    line-height: 0.8em;
+    border:none;
+    border-radius: 35px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left:auto;
+    margin-right: auto;
+}
+#priceListButton:hover{
+    animation: button-price linear forwards 0.2s;
+}
+#flower{
+    width:30px;
+    height: 30px;
+    position: relative;
+    right:-50px;
+    float: right;
+    bottom:90px;
+    transform-origin: 15px 15px;
+}
+#flower img{
+    width:30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#links{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.link-media{
+    margin: 30px;
+    margin-top:0px;
+    width:50px;
+    height: 50px;
+}
+.link-media img:hover{
+    border-bottom: solid 1px black;
+}
+.link-media img{
+    width:50px;
+    height: 50px;
+}
+.examples-container img{
+    width:200px;
+}
+
+
+
+@keyframes examples-appear1 {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes examples-appear2 {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes button-price{
+    0%{
+        color:white;
+    }
+    100%{
+        color:#ff9696;
+    }
+}
+
+@keyframes flowerRollingNormal{
+    0%{rotate: 0deg;}
+    100%{rotate: 180deg;}
+}
+@keyframes flowerRollingReverse{
+    0%{rotate: 0deg;}
+    100%{rotate: -180deg;}
+}
+@keyframes showArts{
+    0%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: #ff7c7c 0px 0px 10px;
+    }
+    100%{
+        box-shadow: none;
+    }
+}
